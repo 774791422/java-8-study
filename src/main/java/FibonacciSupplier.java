@@ -12,7 +12,7 @@ public class FibonacciSupplier implements Supplier<Long> {
   public Long get() {
     long p = one;
     long next = three+two+one;
-    one = two;
+    one = two; 
     two = three;
     three = next;
     return p;
